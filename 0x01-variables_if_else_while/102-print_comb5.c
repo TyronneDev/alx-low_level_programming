@@ -9,32 +9,31 @@
 
 int main(void)
 {
-	int firstDigit = 0, seconDigit;
+int a = 0;
+int b;
 
-	while (firstDigit <= 99)
-	{
-		seconDigit = firstDigit;
-		while (seconDigit <= 99)
-		{
-			if (seconDigit != firstDigit)
-			{
-				putchar((firstDigit / 10) + 48);
-				putchar((firstDigit % 10) + 48);
-				putchar(' ');
-				putchar((seconDigit / 10) + 48);
-				putchar((seconDigit % 10) + 48);
-
-				if (firstDigit != 98 || seconDigit != 99)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			++seconDigit;
-		}
-		++firstDigit;
-	}
-	putchar('\n');
-
-	return (0);
-}BOB
+while (a <= 98)
+{
+b = a + 1;
+while (b <= 99)
+{
+putchar(a / 10 % 10 + '0');
+putchar(a % 10 + '0');
+putchar(' ');
+putchar(b / 10 % 10 + '0');
+putchar(b % 10 + '0');
+if (a == 98 && b == 99)
+{
+putchar('\n');
+}
+else
+{
+putchar(',');
+putchar(' ');
+}
+b++;
+}
+a++;
+}
+return (0);
+}
