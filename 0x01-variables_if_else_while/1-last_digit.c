@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main: Entry point
  *
  * Description: print the last didit of the the variable n
@@ -16,7 +16,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* my addition is below */
-
 digit = n % 10;
 
 	if (digit > 5)

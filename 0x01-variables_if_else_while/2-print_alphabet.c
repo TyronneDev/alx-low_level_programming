@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main: Entry point
  *
  * Description: print aplhabet in lowercase

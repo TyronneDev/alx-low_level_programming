@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* 
+/** 
  * main - Entry point
  *
  * Description: print whether n is positive or negative
@@ -16,9 +16,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	/* my addition is below*/
-
 	if (n > 0)
 		printf("%i is positive\n", n);
 	else if (n == 0)
