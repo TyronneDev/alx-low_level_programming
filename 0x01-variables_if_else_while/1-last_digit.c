@@ -7,7 +7,7 @@
  *
  * Description: print the last didit of the the variable n
  *
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
