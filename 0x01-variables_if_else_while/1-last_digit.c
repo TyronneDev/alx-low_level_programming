@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
+ * main - Entry point
  *
  * Description: print the last didit of the the variable n
  *
@@ -11,7 +11,7 @@
 */
 int main(void)
 {
-	int n;
+	int n; digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
