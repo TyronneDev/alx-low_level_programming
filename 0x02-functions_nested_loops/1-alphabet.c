@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print the alphabets in lower case using putchar
+ * print_alphabet -  print the alphabets in lower case using putchar
  *
  * Return: Always 0 (Successs)
 */
