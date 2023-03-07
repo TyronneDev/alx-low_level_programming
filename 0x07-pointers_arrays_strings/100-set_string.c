@@ -1,3 +1,4 @@
+#include "main.h"OOB
 /**
  * set_string - sets the value of a pointer to a char
  *
