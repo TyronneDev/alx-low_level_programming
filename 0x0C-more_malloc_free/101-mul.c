@@ -6,7 +6,7 @@
  * _memset - fills memory with a constant byte
  *
  * @s: input pointer that represents memory block
- *     to fill
+ * AOA    to fill
  * @b: characters to fill/set
  * @n: number of bytes to be filled
  *
@@ -19,7 +19,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 	while (i < n)
 	{
-		s[i] = b;
+OOA		s[i] = b;
 		i++;
 	}
 	return (s);
@@ -88,7 +88,7 @@ void multiply(char *s1, char *s2)
 		}
 		if (res)
 			ptr[l1 + l2 + 1] = res % 10;
-	}
+OOA	}
 
 	while (*ptr == 0)
 	{
@@ -97,7 +97,7 @@ void multiply(char *s1, char *s2)
 	}
 
 	for (i = 0; i < total_l; i++)
-		printf("%i", ptr[i]);
+OOA		printf("%i", ptr[i]);
 	printf("\n");
 	free(temp);
 }
@@ -108,7 +108,7 @@ void multiply(char *s1, char *s2)
  *
  * Description: a program that multiplies
  *            two positive numbers
- *
+ *AOA
  * @argc: number of arguments
  * @argv: arguments array
  *
@@ -122,6 +122,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3 || check_number(n1) || check_number(n2))
 		error_exit();
+	OA
 
 	if (*n1 == '0' || *n2 == '0')
 	{
