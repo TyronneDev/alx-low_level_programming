@@ -3,20 +3,18 @@
 /**
 * _sqrt_recursion - returns natural square root of a number
 * @n: int
-* return: natural square root or -1 if there's no square root for n
+* return: natural square root or -1 
 **/
 int _sqrt_recursion(int n)
 {
 return (natural_square(n, 1));
 }
-
 /**
 * natural_square - function that help to find natural_square
 * @x: int
 * @y: int
-* Return: square root or -1
+* return: square root or -1
 **/
-
 int natural_square(int x, int y)
 {
 	int s = y * y;
