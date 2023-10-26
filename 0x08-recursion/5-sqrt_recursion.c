@@ -5,6 +5,7 @@
 * @n: int
 * Return: natural square root or -1
 **/
+
 int _sqrt_recursion(int n)
 {
 return (natural_square(n, 1));
@@ -16,6 +17,7 @@ return (natural_square(n, 1));
 * @y: int
 * Return: square root or -1
 **/
+
 int natural_square(int x, int y)
 {
 	int s = y * y;
