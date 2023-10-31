@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * *_strdup - a function that copies a string to a newly allocated space in memory
+ * *_strdup - function copies a string to a newly allocated space in memory
  *
  * @str: string to copy to new location in memory
  *
