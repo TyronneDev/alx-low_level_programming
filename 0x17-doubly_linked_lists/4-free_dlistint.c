@@ -1,4 +1,4 @@
-:q	`include "lists.h"
+#include "lists.h"
 
 /**
  * free_dlistint - function that frees a doubly linked list
